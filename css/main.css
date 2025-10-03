@@ -1618,23 +1618,28 @@ section,
   display: flex;
   flex-direction: column;
   gap: 30px;
+  align-items: center;
 }
 
 .member-img {
   text-align: center;
-  height: 300px;
+  align-items: center;
+  width: 70%;
   flex: 1;
- height: 250px;
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .members-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 75px;
   justify-content: center;
+  flex: 1;
 }
-
+img.fluid{
+  height: 75%;
+  object-fit: cover;
+}
 .team .member {
   flex: 1 1 260px;
   min-width: 260px;
@@ -1656,8 +1661,8 @@ section,
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: -50px;
-  left: 20px;
-  right: 20px;
+  left: -11px;
+  right: -29px;
   padding: 20px 15px;
   overflow: hidden;
   transition: 0.5s;
