@@ -1,0 +1,155 @@
+
+.galvanization-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gal-image{
+    width: 300px;
+    height:170px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex: 1;
+}
+.gal-image:hover{
+    transform: scale(1.05);
+}
+.gal-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gal-text{
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+    
+}
+#galvanization{
+    background-color: var(--background-color);
+    padding: 20px;
+
+}
+.gal-why{
+    display: flex;
+}
+.why-section-one,.why-section-two{
+    flex: 1;
+    padding: 10px;
+}
+
+/*styling hotdip-galvanization page*/
+#hotdip-galvanization{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+
+.hotdip-content{
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.hot-text{
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+    display: flex;
+    
+}
+.hot-text-section-one,.hot-text-section-two{
+    flex: 1;
+
+}
+.hot-dip-content2{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: left;
+    flex-direction: row;
+    flex: 1;
+}
+.hot-image{
+    width: 300px;
+    height:170px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex: 1;
+}
+.hot-image:hover{
+    transform: scale(1.05);
+}
+.hot-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hot-dip-applications{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+
+    flex: 1;
+}
+.hot-dip-application-list1,.hot-dip-application-list2{
+    flex: 1;
+    padding: 10px;
+}
+#surface-preparation{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+
+.service-section p{
+   text-align: justify;
+}
+#abrasive-blasting{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+#painting{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+#airless-spray-painting{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+#fireproof-painting{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+#epoxy-painting{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: justify;
+}
+
+.epoxy-image{
+    width: 300px;
+    height:170px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex: 1;
+    padding: 20px;
+}
+.epoxy-image:hover{
+    transform: scale(1.05);
+}
+.epoxy-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
