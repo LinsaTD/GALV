@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>facilities-Galvanizingllc</title>
+    <title>Service Details-Galvanizing Services LLC</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,42 +18,50 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="vendor/aos/aos.css" rel="stylesheet">
-    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="css/facilities.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/usefullinks-page-style.css" rel="stylesheet">
 
+    <style>
+        .service-section {
+            display: none;
+        }
 
+        .service-section.active {
+            display: block;
+        }
+    </style>
 </head>
 
-<body class="starter-page-page">
+<body class="service-details-page">
 
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
             <a href="index.html" class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="img/logo.png" alt=""> -->
-                <h1 class="sitename">Galvanizing Services LLC</h1>
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="sitename">Galavanizing Services LLC</h1>
             </a>
 
-            <nav id="navmenu" class="navmenu">
+          <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="index.html#services">Services</a></li>
                     <li><a href="index.html#portfolio">Portfolio</a></li>
                     <li><a href="index.html#team">Team</a></li>
-                    <li class="dropdown"><a href="usefullinks-page.html"><span>Useful Links</span> <i
+                    <li class="dropdown"><a href="usefullinks-page.html" class="active"><span>Useful Links</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="galvanization.html">Galvanization</a></li>
-                            <li class="dropdown"><a href="hotdip.html"><span>Hotdip Galvanization</span> <!-- <i
+                            <li><a href="#galvanization">Galvanization</a></li>
+                            <li class="dropdown"><a href="#hotdip-galvanization"><span>Hotdip Galvanization</span> <!-- <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a> -->
                                     <!--<ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
@@ -65,25 +71,25 @@
                   <li><a href="#">Deep Dropdown 5</a></li>
                 </ul> 
               </li> -->
-                            <li><a href="abrasive-page.html">Abrasive Blasting</a></li>
-                            <li class="dropdown"><a href="#"><span>Painting</span>
+                            <li><a href="#abrasive-blasting">Abrasive Blasting</a></li>
+                            <li class="dropdown"><a href="#painting"><span>Painting</span>
                                     <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
-                                    <li><a href="#">Surface preparation</a></li>
-                                    <li><a href="#">Airless Spray Painting</a></li>
-                                    <li><a href="#">Fireproof Painting</a></li>
-                                    <li><a href="#">Epoxy Painting</a></li> 
+                                    <li><a href="#surface-preparation">Surface preparation</a></li>
+                                    <li><a href="#airless-spray-painting">Airless Spray Painting</a></li>
+                                    <li><a href="#fireproof-painting">Fireproof Painting</a></li>
+                                    <li><a href="#epoxy-painting">Epoxy Painting</a></li>
                                 </ul>
                             </li>
                             <li><a href="projects.html">Projects</a></li>
                         </ul>
                     </li>
-                    <li><a href="facilities.html" class="active">Facilities</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-
+            
 
         </div>
     </header>
@@ -92,199 +98,551 @@
 
         <!-- Page Title -->
         <div class="page-title dark-background" data-aos="fade"
-            style="background-image: url(img/page-title-bg.webp);">
+            style="background-image: url(assets/img/page-title-bg.webp);">
             <div class="container position-relative">
-                <h1>FACILITIES</h1>
-                <P>Welcome to Our State-of-the-Art Plant Facilities.
-
-                    At Galvanizing Services LLC, our plant facilities are the heart of our operations, where innovation
-                    meets quality.
-                    We're committed to delivering the best products while ensuring sustainability and efficiency in
-                    everything we do.</P>
+                <h1>Service Details</h1>
+                <p>Discover the depth of our services and how they can transform your business. Our team is dedicated to
+                    delivering high-quality solutions tailored to your unique needs. Read on to learn more about our
+                    expertise and how we can help you achieve your goals.</p>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li class="current">facilities</li>
+                        <li class="current">Service Details</li>
                     </ol>
                 </nav>
             </div>
         </div><!-- End Page Title -->
 
-        <!-- Starter Section Section -->
-        <section id="starter-section" class="starter-section section">
+        <!-- Service Details Section -->
+        <section id="service-details" class="service-details section">
 
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Our Commitment to Excellence</h2>
-                <p>LIST OF HANDLING EQUIPMENTS<br></p>
-            </div><!-- End Section Title -->
+            <div class="container">
 
-            <div class="container" data-aos="fade-up">
-                <div id="facility-main">
+                <div class="row gy-4">
 
-                    <table style:border="1" cellpadding="5" cellspacing="0">
-                        <tr>
-                            <th>Sl. #</th>
-                            <th>Description</th>
-                            <th>Remarks</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Grit mixed Blasting</td>
-                            <td>Grit/Garnet/Metal shots mixed blasting machine: Our fully automatic blasting machine
-                                with aperture 1.5mtrx1.0mtr along with manual blasting operation with 400 Sq. mtr area
-                                approx. is capable of handling up to 15 tons per hour.</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Heating facility of Furnace</td>
-                            <td>By LPG.</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Pre-Treatment section</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>3.1</td>
-                            <td>Degreasing</td>
-                            <td>12.5 M (L) x 1.0 M (W) x 1.5 M (D) - 1 nos.</td>
-                        </tr>
-                        <tr>
-                            <td>3.2</td>
-                            <td>Pickling Tank</td>
-                            <td>12.5 M (L) x 1.0 M (W) x 1.5 M (D) - 2 nos.<br>12.5 M (L) x 1.5 M (W) x 2.4 M (D) - 1
-                                no.<br>12.5 M (L) x 1.5 M (W) x 2.4 M (D) - 1 no.</td>
-                        </tr>
-                        <tr>
-                            <td>3.3</td>
-                            <td>Rincing Water Tank</td>
-                            <td>12.5 M (L) x 1.5 M (W) x 2.4 M (D) - 1 nos.</td>
-                        </tr>
-                        <tr>
-                            <td>3.4</td>
-                            <td>Flux Tank</td>
-                            <td>Drier and Hotplate<br>
-                                Drier:12.5 x 3.0 mtr<br>Hotplate: 12.5 x 3.0 mtr</td>
-                        </tr>
-                        <tr>
-                            <td>3.5</td>
-                            <td>Zinc Bath</td>
-                            <td>12.50 M (L) x 1.50 M (W) x 2.40 M (H)</td>
-                        </tr>
-                        <tr>
-                            <td>3.6</td>
-                            <td>Quenching Tank</td>
-                            <td>12.50 M (L) x 2.50 M (W) x 2.50 M (D) - 1 nos.</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Factory Area</td>
-                            <td>189000 square feet.</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Overhead Crane</td>
-                            <td>10 tons capacity overhead cranes 4 nos. in the production bay.</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Weigh Bridge</td>
-                            <td>We have a weighing facility capable of weighing up to 100 tons.</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Fork Lift</td>
-                            <td>Fleet of 05 forklifts of different capacity varies from 3tons to 10 tons for
-                                loading/offloading purpose.</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Chemical Analysis Lab</td>
-                            <td>Inside premises.</td>
-                        </tr>
-                    </table>
-                    <br>
-                    <br>
-                </div>
-                <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>BRITISH STANDARD & QUALITY ASSURANCE POLICY</h2>
-                    <p>BRITISH STANDARD<br></p>
-                </div><!-- End Section Title -->
-                <div class="container" data-aos="fade-up">
-                    <p style="text-align: justify;">
-                        <b>BS EN ISO 1461:2009 & ASTM A 123/ A153<br></b>
-                        The company has set up well-documented acceptance standards and testing criteria for the
-                        galvanized products, which are based on international standards For Hot dip
-                        galvanization on fabricated Iron and steel articles (BS EN ISO: 1461:2009, ASTM A 123,
-                        ASTM A 153 and ASTM A143M )for hot dip Galvanizing. The acceptance criteria are strictly
-                        followed and any material, which deviates from the same, is rejected and reprocessed.
-                        It has been our continuous endeavor to improve our overall Quality Management System and
-                        our process system. GSE has followed a policy of continual improvement both in process
-                        as well as products. This has resulted in improved quality and speedy delivery of all
-                        our products thereby resulting in better customer satisfaction and we are sure to extend
-                        the same to our Galvanizing process.
-                        The above standards for the Hot dip Galvanized product give the requirement for coating
-                        weight, adhesion, appearance and uniformity.
-                        GSE operates from its own premises in the heart of the industrial area in Dubai-Al Quoz
-                        and Hamriyah Free Zone-Ajman, UAE. We welcome enquiries for our full range of products
-                        and assure prompt and professional attention to all our customers’ needs and wants.
-                    </p>
-                </div>
-                <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
-                    <p>QUALITY ASSURANCE POLICY<br></p>
-                </div><!-- End Section Title -->
-                <div class="container" data-aos="fade-up" data-aos="fade-up">
-                    <p style="text-align: justify;">
-                        GSE's production line implements a continuous quality system. This allows for inspection at
-                        every stage of the production. We implement and maintain Quality System based on BS EN ISO
-                        9001: 2015 Quality Management System-Requirements and Quality Management System Guidelines
-                        for performance improvements.
-                    </p>
-                </div>
-
-                <div class="certificates container ">
-                    <div class="certificate-section1">
-                        <div class="iso-image1">
-                            <a target="_blank" href="img/facilities/iso9001-2015.png"><img
-                                    src="img/facilities/iso9001-2015.png"></a>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="services-list">
+                            <a href="#service-content" class="active">Introduction</a>
+                            <a href="#galvanization">Galvanization</a>
+                            <a href="#hotdip-galvanization">Hotdip Galvanization</a>
+                            <a href="#surface-preparation">Surface Preparation</a>
+                            <a href="#abrasive-blasting">Abrasive Blasting</a>
+                            <a href="#painting">Painting</a>
+                            <a href="#airless-spray-painting">Airless Spray Painting</a>
+                            <a href="#fireproof-painting">Fireproof Painting</a>
+                            <a href="#epoxy-painting">Epoxy Painting</a>
                         </div>
-                        <div class="iso-image2">
-                            <a target="_blank" href="img/facilities/iso2015.png"><img
-                                    src="img/facilities/iso2015.png"></a>
-                        </div>
-                        <div class="iso-image3">
-                            <a target="_blank" href="img/facilities/iso2018.png"> <img
-                                    src="img/facilities/iso2018.png"></a>
-
-                        </div>
-                    </div>
-                    <div class="certificates-section2">
-                        <div class="certificate-image1">
-                            <a target="_blank" href="img/facilities/American-galvanizers-asstn.png"><img
-                                    src="img/facilities/American-galvanizers-asstn.png"></a>
-
-                        </div>
-                        <div class="certificate-image2">
-                            <a target="_blank" href="img/facilities/approved-applicator-crtfct.png"> <img
-                                    src="img/facilities/approved-applicator-crtfct.png"></a>
-
-                        </div>
-                        <div class="certificate-image3">
-                            <a target="_blank" href="img/facilities/galvanizer's-associations-crtct.png"><img
-                                    src="img/facilities/galvanizer's-associations-crtct.png"></a>
-
+                        <div id="default-service-content">
+                            <h4>Get Started Today!</h4>
+                            <p>Contact us to learn more about our galvanizing services and how we can help protect your
+                                steel structures.
+                                Our team is ready to assist you with your galvanizing needs.</p>
                         </div>
                     </div>
 
+                    <div class="col-lg-8 service-content-area" id="service-content" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div id="default-service-details">
+                            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+                            <h3>Our Galvanizing Services</h3>
+                            <p>
+                                At Galavanizing Services LLC, we pride ourselves on delivering exceptional galvanizing
+                                services that shield steel structures from corrosion, ensuring unparalleled durability
+                                and longevity. With cutting-edge facilities and seasoned experts, we provide top-tier
+                                galvanizing solutions for diverse industries.
+
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check-circle"></i> <span> Construction</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Infrastructure</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Industrial</span></li>
+                            </ul>
+                            <p><b>Why Choose Our Galvanizing Services?</b></p>
+                            <p>
+                            <ul>
+                                <li><i class="bi bi-check-circle"></i> <span>Expertise: Our team has extensive
+                                        experience in galvanizing, ensuring that every project
+                                        meets the highest standards of quality and reliability.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Advanced Facilities: Our modern facilities
+                                        are equipped with the latest technology,
+                                        enabling us to handle large and complex projects with ease.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Customer-Centric Approach: We prioritize
+                                        our clients' needs, offering personalized
+                                        solutions and exceptional customer service.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Competitive Pricing: We provide top-quality
+                                        galvanizing services at competitive rates,
+                                        ensuring value for our clients.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Quality Control: We adhere to strict
+                                        quality control measures, guaranteeing that every
+                                        product meets our high standards.</span></li>
+                                <li><i class="bi bi-check-circle"></i> <span>Sustainability: Galvanizing is a
+                                        sustainable and environmentally friendly process that
+                                        extends the life of steel structures, reducing the need for frequent
+                                        replacements.</span></li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div id="service-sections-wrapper">
+                            <section id="galvanization" class="service-section">
+                                <div class="container">
+                                    <h3>Galvanization</h3>
+                                    <p>Galvanization is the process of applying a protective zinc coating to steel or
+                                        iron to prevent rusting and corrosion.
+                                        The most common method is hot-dip galvanizing , where the metal is dipped into
+                                        molten zinc.Protects iron or steel from oxidation (rust).Galvanization
+                                        provides a sacrificial layer that corrodes instead of the underlying metal.
+                                        Increases durability and lifespan of metal structures. Cost-effective way to
+                                        prevent corrosion.</p>
+                                    <div class="galvanization-content">
+                                        <div class="gal-image">
+                                            <img src="assets/img/services/galvanized-coils.jpg" alt="galvanized-coils">
+                                        </div>
+                                        <div class="gal-text">
+                                            <p>
+                                                <i>How It Works :</i>
+                                                Zinc acts as a sacrificial anode , meaning it corrodes preferentially,
+                                                protecting the underlying steel or iron. Even if the coating is slightly
+                                                damaged, the zinc will still protect the exposed area.<br>
+                                                <i> Common Methods :</i>
+
+                                                Hot-dip Galvanizing,
+                                                (Immersing metal in molten zinc)
+
+                                                Electro-Galvanizing
+                                                (Using electroplating to deposit a layer of zinc) and
+
+                                                Spraying(Applying zinc coating via thermal spraying)
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="gal-why">
+                                        <h5>Why Galvanize</h5>
+                                        <p>
+
+                                        <div class="why-section-one">
+                                            <p>
+                                            <ul>
+                                                <li><i class="bi bi-check-circle"></i> <span>Prevent Rust and
+                                                        Corrosion</span></li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Prolong Lifespan of
+                                                        Structures</span></li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Cost-Effective
+                                                        Protection</span></li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <div class="why-section-two">
+                                            <p>
+                                            <ul>
+                                                <li><i class="bi bi-check-circle"></i> <span>Enhanced Durability</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Improved Aesthetics</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Eco-Friendly
+                                                        Solution</span>
+                                                </li>
+                                            </ul>
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section id="hotdip-galvanization" class="service-section">
+                                <div class="container">
+                                    <h3>Hotdip Galvanization</h3>
+                                    <p>Hot dip galvanizing is a process in which steel is coated with a protective layer
+                                        of zinc by immersing it in molten zinc. This coating forms zinc-iron alloys on
+                                        the surface, providing excellent corrosion protection, strength, and durability.
+                                        It is widely used in construction, infrastructure, and transportation due to its
+                                        economic efficiency and long-lasting protection.</p>
+                                    <div class="hotdip-content">
+                                        <h5>Advantages of Hotdip Galvanization</h5>
+                                        <div class="hot-text">
+                                            <div class="hot-text-section-one">
+
+                                                <p>
+                                                <ul>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Long-Term Corrosion
+                                                            Protection</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>High Level of
+                                                            Mechanical
+                                                            Resilience</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>All-Round Protection
+                                                            even
+                                                            in cavities and edges</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Cathodic Corrosion
+                                                            Protection</span>
+                                                    </li>
+                                                </ul>
+                                                </p>
+
+                                            </div>
+                                            <div>
+                                                <p>
+                                                <ul>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Attractive and Uniform
+                                                            Appearance</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Cost-Effective and
+                                                            Economical</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Maintenance-Free</span>
+                                                    </li>
+                                                    <li><i class="bi bi-check-circle"></i> <span>Environmentally
+                                                            Friendly
+                                                            Process</span>
+                                                    </li>
+                                                </ul>
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="hot-dip-content2">
+                                            <div class="hot-image">
+                                                <img src="assets/img/portfolio/galvanization5.jpg"
+                                                    alt="hot-dip-galvanizing">
+                                            </div>
+                                            <div class="hot-dip-applications">
+                                                <h5>Applications of Hotdip Galvanization</h5>
+                                                <div class="hot-dip-application-list1">
+                                                    <p>
+                                                    <ul>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Bridges </span>
+                                                        </li>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Highway Guardrails
+                                                            </span></li>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Steel Structures
+                                                                and Barriers</span></li>
+                                                    </ul>
+                                                    </p>
+
+                                                </div>
+                                                <div class="hot-dip-application-list2">
+                                                    <p>
+                                                    <ul>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Car Parks</span>
+                                                        </li>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Marine
+                                                                structures</span></li>
+                                                        <li><i class="bi bi-check-circle"></i> <span>Automotive
+                                                                Parts&Components</span></li>
+
+                                                    </ul>
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </section>
+
+                            <section id="surface-preparation" class="service-section">
+                                <div class="container">
+                                    <h3>Surface Preparation</h3>
+                                    <p>Most metallic articles that are usually given protective coatings are heavily
+                                        contaminated and require, at least, some
+                                        cleaning treatment before the coating is applied. The importance of surface
+                                        preparation cannot be over emphasized
+                                        as many investigations have shown convincingly that the performance and
+                                        durability of any protective coatings
+                                        are, to a large extent governed by the thoroughness of surface preparation.
+                                        Often they concluded that careful
+                                        cleaning and preparation of the surface were more important than the quality of
+                                        the protective coating.
+                                        Surface contamination in the form of rust, scale, oil grease and dirt must be
+                                        removed before painting. Invisible
+                                        contamination may also be present and represents, on the whole, a greater
+                                        hazard. Examples of the latter are
+                                        soldering fluxes, perspiration in the form of hand marks, chlorides from a
+                                        Marine atmosphere and sulphite from
+                                        industrial atmosphere.</p>
+                                    <div>
+                                        <h5>Standards for Surface Preparation</h5>
+                                        <p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> <span>Swedish Standards</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Steel Structures Painting
+                                                    Council (SSPC)</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>NACE Standards</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>ISO 4624, ISO 2802</span></li>
+                                        </ul>
+
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h5>Working Profile for Painting</h5>
+                                        <p>
+                                            We offer a full range of surface preparation and protective coatings as
+                                            follows:
+                                        </p>
+                                        <ul>
+                                            <li><strong>Blasting & Painting:</strong> Abrasive blasting and high-quality
+                                                coating of steel components.</li>
+                                            <li><strong>Paint Stripping:</strong> Chemical or mechanical removal in
+                                                sensitive areas like turbines and motors.</li>
+                                            <li><strong>High Pressure Water Jetting:</strong> Efficient cleaning and
+                                                degreasing for industrial surfaces.</li>
+                                            <li><strong>Steam Cleaning:</strong> Effective method for degreasing prior
+                                                to coating.</li>
+                                            <li><strong>Conventional Grit Blasting:</strong> Uses various abrasives to
+                                                achieve surface profiles that meet coating specifications.</li>
+                                            <li><strong>Wet Abrasive Blasting:</strong> Reduces dust; suitable for
+                                                confined or dust-restricted environments.</li>
+                                            <li><strong>Chemical Cleaning:</strong> Ideal where blasting isn't possible;
+                                                leaves a clean surface ready for coating.</li>
+                                            <li><strong>Power Tool Cleaning:</strong> Uses tools like grinders and
+                                                needle guns for small-scale or budget-friendly surface prep.</li>
+                                        </ul>
+
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="abrasive-blasting" class="service-section">
+                                <div class="container">
+                                    <h3>Abrasive Blasting</h3>
+                                    <p>
+                                        Abrasive blasting is a highly efficient method of surface preparation used to
+                                        clean, roughen, or smoothen surfaces by forcibly propelling abrasive material at
+                                        high speed against them. It is a compulsory process before coating, painting, or
+                                        galvanizing in order to attain maximum adhesion and a long-lasting finish.
+                                    <p>
+                                    <ul>
+                                        <li><i class="bi bi-check-circle"></i> <span>Surface Cleaning: Removes rust,
+                                                scale, old paint, grease, and other
+                                                impurities.</span></li>
+                                        <li><i class="bi bi-check-circle"></i> <span>Surface Profiling: Creates a rough
+                                                surface ideal for coating adhesion.</span></li>
+                                        <li><i class="bi bi-check-circle"></i> <span>Custom Finishes: Creates varying
+                                                degrees of surface profiles (Sa1 to Sa3) to
+                                                project specifications.</span></li>
+                                    </ul>
+                                    </p>
+                                    </p>
+                                    <!-- <div>
+                                        <h5>Types of Abrasive Blasting</h5>
+                                        <p>
+                                        <ul>
+                                            <li><strong>Sandblasting:</strong> <span>Uses fine sand particles to clean and
+                                                prepare surfaces.</span>
+                                            </li>
+                                            <li><strong>Shot Blasting:</strong> Utilizes small steel balls (shots) to
+                                                clean and strengthen metal surfaces. Commonly used in automotive and
+                                                construction industries.</li>
+                                            <li><strong>Bead Blasting:</strong> Employs glass beads to create a smooth,
+                                                polished finish. Suitable for delicate surfaces and fine detailing.</li>
+                                            <li><strong>Grit Blasting:</strong> Involves the use of abrasive grit
+                                                materials like aluminum oxide or silicon carbide for heavy-duty cleaning
+                                                and surface profiling.</li>
+                                            <li><strong>Plastic Media Blasting:</strong> Uses plastic particles to clean
+                                                surfaces without damaging the underlying material. Often used in
+                                                automotive restoration.</li>
+                                            <li><strong>Walnut Shell Blasting:</strong> Utilizes crushed walnut shells
+                                                for gentle cleaning, ideal for softer materials like wood or fiberglass.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div> -->
+                                    <div>
+                                        <h5>Applications of Abrasive Blasting</h5>
+                                        <p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> <span>Surface Preparation for
+                                                    Coatings</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Rust and Paint Removal</span>
+                                            </li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Cleaning Industrial
+                                                    Equipment</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Restoration of Historic
+                                                    Structures</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Etching and Texturing
+                                                    Surfaces</span></li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h3>Sweep Blasting</h3>
+                                        <p>
+                                            Sweep blasting is a specialized abrasive blasting technique that uses a
+                                            controlled stream of abrasive material to clean and prepare surfaces. Unlike
+                                            traditional blasting methods, sweep blasting allows for precise control over
+                                            the area being treated, minimizing overspray and reducing waste. This method
+                                            is particularly effective for cleaning large surfaces, removing coatings,
+                                            rust, and contaminants while preserving the integrity of the underlying
+                                            material. Sweep blasting is commonly used in industrial applications,
+                                            including shipbuilding, construction, and manufacturing, where surface
+                                            preparation is critical for ensuring the longevity and performance of
+                                            protective coatings.
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="painting" class="service-section">
+                                <div class="container">
+                                    <h3>Painting</h3>
+                                    <p>The purpose of painting/coating application is to develop a continuous highly
+                                        adherent film with an even
+                                        thickness over the substrate. To achieve this, various factors have to be
+                                        considered such as type of
+                                        coatings and weather conditions, application methods etc.</p>
+                                    <div>
+                                        <h5>Application Restrictions</h5>
+                                        <p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> <span> Do not apply coatings during
+                                                    fog, mist, rain, or when RH ≥ 85%.
+                                                </span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Avoid application when
+                                                    surface/ambient temperature is <10°C (50°F) or>50°C (120°F).
+                                                </span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Steel surface must be at least
+                                                    3°C (5°F) above the dew point</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span> Humidity and dew point must be
+                                                    recorded using a sling psychrometer every 4 hours during
+                                                    application.
+                                                </span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Coatings shall only be applied
+                                                    after surface inspection and approval.</span>
+                                            </li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Sharp edges must be ground to a
+                                                    minimum 2 mm radius, followed by stripe coating.
+                                                </span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Salt-contaminated areas (e.g.,
+                                                    salt spray zones) must be cleaned with fresh water blasting/mopping
+                                                    before primer and intermediate coats.
+                                                </span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Water used should have chloride
+                                                    content ≤ 50 ppm.
+                                                </span></li>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="airless-spray-painting" class="service-section">
+                                <div class="container">
+                                    <h3>Airless Spray Painting</h3>
+                                    <p>➢ For applying the complete range of industrial coating system. <br> ➢ For
+                                        Painting: We
+                                        have 2 painting yard with a capacity of 300 Ton per month</p>
+                                    <div class="airless-content">
+                                        <div class="airless-image">
+                                            <img src="assets/img/services/spray.jpg" alt="airless-painting">
+                                        </div>
+                                        <div class="airless-text">
+                                            <h5>Advantages of Airless Spray Painting</h5>
+                                            <p>
+                                            <ul>
+                                                <li><i class="bi bi-check-circle"></i> <span>High Efficiency: Airless
+                                                        spraying delivers a high volume of paint quickly, making it
+                                                        ideal
+                                                        for large surfaces.</span></li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Even Coating: Provides a
+                                                        smooth, uniform finish with fewer brush marks and
+                                                        streaks.</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Versatility: Suitable for
+                                                        a wide range of coatings, including thick paints and
+                                                        primers.</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Reduced Overspray:
+                                                        Compared to traditional spraying methods, airless spraying
+                                                        minimizes overspray, reducing waste and cleanup time.</span>
+                                                </li>
+                                                <li><i class="bi bi-check-circle"></i> <span>Better Adhesion: The high
+                                                        pressure used in airless spraying helps the paint adhere better
+                                                        to
+                                                        the surface.</span></li>
+                                            </ul>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="fireproof-painting" class="service-section">
+                                <div class="container">
+                                    <h3>Fireproof Painting</h3>
+                                    <p> Intumescent paint is a coating that, when exposed to high heat, expands and
+                                        forms an insulating char layer. This char protects the underlying steel by
+                                        slowing heat transfer. The reaction typically begins at around 200 °C or more.
+                                        The char layer thickness can expand many times over the original coating
+                                        thickness (sometimes 50× or more) to provide protection.
+                                        Fire protection durations range from 30 minutes up to 180 minutes or more,
+                                        depending on coating type, thickness, and structural requirements.
+                                    </p>
+                                    <div>
+                                        <p>
+                                            Intumescent coatings are commonly used in commercial buildings, industrial
+                                            facilities, and infrastructure projects to enhance fire safety and protect
+                                            structural steel elements from collapse during a fire event.
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> <span>Allowing firefighters more time
+                                                    to get the fire under control</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Extending crucial evacuation
+                                                    time</span>
+                                            </li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Fire protection for up to 120
+                                                    minutes.</span>
+                                            </li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Preventing structural
+                                                    collapse</span>
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="epoxy-painting" class="service-section">
+                                <div class="container">
+                                    <h3>Epoxy Painting</h3>
+                                    <p>Epoxy coatings are a type of protective finish made from epoxy resins and hardeners.
+                                        They form a durable, chemical-resistant layer that adheres strongly to surfaces like
+                                        metal, concrete, and wood. Epoxy coatings are commonly used in industrial,
+                                        commercial, and residential settings to protect floors, walls, and equipment from
+                                        wear, corrosion, and chemical damage. They provide a tough, long-lasting surface
+                                        that is easy to clean and maintain.</p>
+                                </div>
+                                <div class="epoxy-content">
+                                    <div class="epoxy-image">
+                                        <img src="assets/img/services/epoxy.jpg" alt="epoxy-painting">
+                                    </div>
+                                    <div class="epoxy-text">
+                                        <h5>Advantages of Epoxy Painting</h5>
+                                        <p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> <span>Durability: Epoxy coatings are
+                                                    highly durable and resistant to wear, making them ideal for high-traffic
+                                                    areas.</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Chemical Resistance: They offer
+                                                    excellent resistance to chemicals, oils, and solvents, protecting surfaces
+                                                    from damage.</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Adhesion: Epoxy coatings adhere
+                                                    strongly to a variety of surfaces, ensuring a long-lasting finish.</span>
+                                            </li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Aesthetic Appeal: Available in a
+                                                    range of colors and finishes, epoxy coatings can enhance the appearance of
+                                                    surfaces.</span></li>
+                                            <li><i class="bi bi-check-circle"></i> <span>Easy Maintenance: The smooth,
+                                                    non-porous surface of epoxy coatings makes them easy to clean and maintain.
+                                                </span></li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                            </section>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
 
             </div>
 
-        </section><!-- /Starter Section Section -->
+        </section><!-- /Service Details Section -->
 
     </main>
 
@@ -330,10 +688,10 @@
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="usefullinks-page.html#galvanization">Galvanization</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="usefullinks-page.html#hotdip-galvanization">Hotdip Galvanization</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="usefullinks-page.html#abrasive-blasting">Abrasive Blasting</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="usefullinks-page.html#painting">Painting</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#galvanization">Galvanization</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#hotdip-galvanization">Hotdip Galvanization</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#abrasive-blasting">Abrasive Blasting</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#painting">Painting</a></li>
 
 
                     </ul>
@@ -351,6 +709,7 @@
 
     </footer>
 
+
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
@@ -359,19 +718,93 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/php-email-form/validate.js"></script>
-    <script src="vendor/aos/aos.js"></script>
-    <script src="vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Sidebar links
+    const sidebarLinks = document.querySelectorAll('.services-list a');
+    // Header nav links (dropdowns)
+    const headerLinks = document.querySelectorAll('#navmenu a[href^="#"], #navmenu a[href^="usefullinks-page.html#"]');
+    // Footer service links
+    const footerServiceLinks = document.querySelectorAll('.footer-links ul li a[href^="#"], .footer-links ul li a[href^="usefullinks-page.html#"]');
+    const defaultContent = document.getElementById('default-service-content');
+    const defaultDetails = document.getElementById('default-service-details');
+    const sections = document.querySelectorAll('.service-section');
+
+    function showSection(id) {
+        sections.forEach(sec => sec.classList.remove('active'));
+        if (id && document.getElementById(id)) {
+            if (id === 'service-content') {
+                defaultContent.style.display = '';
+                defaultDetails.style.display = '';
+            } else {
+                defaultContent.style.display = 'none';
+                defaultDetails.style.display = 'none';
+                document.getElementById(id).classList.add('active');
+            }
+        } else {
+            defaultContent.style.display = '';
+            defaultDetails.style.display = '';
+            sections.forEach(sec => sec.classList.remove('active'));
+        }
+        // Set active class for sidebar links
+        sidebarLinks.forEach(l => {
+            if (l.getAttribute('href').replace('#', '') === id) {
+                l.classList.add('active');
+            } else {
+                l.classList.remove('active');
+            }
+        });
+    }
+
+    function handleClick(e) {
+        e.preventDefault();
+        let href = this.getAttribute('href');
+        // If link is to usefullinks-page.html#section, reload page with hash
+        if (href.startsWith('usefullinks-page.html#')) {
+            window.location.href = href;
+            return;
+        }
+        let id = href.replace('#', '');
+        showSection(id);
+    }
+
+    sidebarLinks.forEach(link => {
+        link.addEventListener('click', handleClick);
+    });
+    headerLinks.forEach(link => {
+        link.addEventListener('click', handleClick);
+    });
+    footerServiceLinks.forEach(link => {
+        link.addEventListener('click', handleClick);
+    });
+
+    // On load, check localStorage for serviceActive or use hash
+    let initialSection = 'service-content';
+    const storedSection = localStorage.getItem('serviceActive');
+    if (storedSection && document.getElementById(storedSection)) {
+        initialSection = storedSection;
+        localStorage.removeItem('serviceActive');
+    } else if (window.location.hash) {
+        const hashSection = window.location.hash.replace('#', '');
+        if (hashSection && document.getElementById(hashSection)) {
+            initialSection = hashSection;
+        }
+    }
+    showSection(initialSection);
+});
+</script>
 
 </body>
-
 
 </html>
